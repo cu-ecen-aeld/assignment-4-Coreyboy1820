@@ -14,3 +14,4 @@ if [ -e buildroot/.config ] && [ -e buildroot/output/build/linux-*/.config ]; th
 		make -C buildroot linux-update-defconfig
 	fi
 fi
+
